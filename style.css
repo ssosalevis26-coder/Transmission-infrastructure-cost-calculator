@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap");
+
+body {
+    background: #edf2ef;
+    color: #142c26;
+    font-family: "Instrument Sans", system-ui, sans-serif;
+}
+.brand, .navigation, .panel {
+    width: min(100% - 2rem, 68rem);
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+.brand {
+    color: #285d4e;
+    font-weight: 700;
+    letter-spacing: .14em;
+    padding-block: 2rem 1rem;
+}
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+.panel {
+    background: #fff;
+    border: 1px solid #cfddd7;
+    border-top: .35rem solid #24604c;
+    border-radius: .8rem;
+    padding: clamp(1.2rem, 5vw, 3.5rem);
+    margin-bottom: 2rem;
+    line-height: 1.55;
+}
+.panel h1 {
+    color: #142c26;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.1;
+    letter-spacing: -.04em;
+    margin: 0 0 1.4rem;
+}
+.panel h2 {
+    margin-block: 1.5rem .5rem;
+}
+.fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+    gap: 1.1rem;
+    margin-bottom: 1rem;
+}
+.fields label {
+    display: block;
+    font-weight: 600;
+}
+.fields input, .fields select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: .65rem;
+    border: 1px solid #7c9a8f;
+    border-radius: .4rem;
+    background: #fff;
+    color: #142c26;
+}
+.navigation button, .panel button {
+    font: inherit;
+    font-weight: 600;
+    color: #154438;
+    background: #e2eee8;
+    border: 1px solid #b7cec4;
+    border-radius: .45rem;
+    padding: .55rem .85rem;
+}
+.panel button.primary {
+    background: #1b5744;
+    border-color: #1b5744;
+    color: #fff;
+}
+.panel button:hover, .navigation button:hover {
+    filter: brightness(.92);
+}
+.panel :focus-visible, .navigation :focus-visible {
+    outline: 3px solid #97641d;
+    outline-offset: 3px;
+}
+.error, .status {
+    border-radius: .4rem;
+    padding: .8rem 1rem;
+    margin-block: .8rem;
+    font-weight: 600;
+}
+.error {
+    color: #852e23;
+    background: #fff0ec;
+}
+.status {
+    color: #164638;
+    background: #e2eee8;
+}
+.scroll {
+    overflow-x: auto;
+}
+.panel table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: .75rem;
+}
+.panel th, .panel td {
+    padding: .6rem;
+    text-align: left;
+    border-bottom: 1px solid #cfddd7;
+}
+.panel th {
+    background: #edf2ef;
+}
