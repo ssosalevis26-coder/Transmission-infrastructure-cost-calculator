@@ -1,5 +1,7 @@
 # Grid Cost Planner
 
+[Open the live Grid Cost Planner](https://ssosalevis26-coder.github.io/Transmission-infrastructure-cost-calculator/)
+
 University of Delaware CISC 106 final project. Compare illustrative utility-scale solar,
 four-hour battery energy storage (BESS), and hybrid costs. Save cases and inspect a
 transmission raw-material breakdown. The state selection labels a case and uses the
@@ -26,7 +28,7 @@ Open the local URL printed by Drafter. Saved cases live in the running browser s
 3. Under **Actions**, open **Test and deploy Drafter**, run it for `main`, and open
    the URL from the completed `github-pages` deployment.
 4. Open the link in a signed-out window. Calculate a case, save and compare it, and open
-   Transmission and Assumptions. Add the verified site URL to this README for the TA.
+   Transmission and Assumptions.
 
 The workflow runs the tests and compiles a static Drafter site. Python runs in the
 visitor's browser. For background, see the [Drafter Pages guide](https://drafter-edu.github.io/drafter/your-project/deploy/github-pages/).
